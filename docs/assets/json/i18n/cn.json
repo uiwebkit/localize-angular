@@ -1,0 +1,18 @@
+{
+  "Welcome": "欢迎",
+  "app is running!": "应用程序正在运行!",
+  "Resources": "资源",
+  "Here are some links to help you get started:": "这里有一些链接可以帮助你开始。",
+  "Learn Angular": "学习Angular",
+  "CLI Documentation": "CLI文档",
+  "Next Steps": "接下来的步骤",
+  "What do you want to do next with your app?": "你接下来想用你的应用程序做什么？",
+  "New Component": "新组件",
+  "Add PWA Support": "增加PWA支持",
+  "Add Dependency": "添加依赖关系",
+  "Run and Watch Tests": "运行和观察测试",
+  "Build for Production": "为生产而建",
+  "Love Angular?": "喜欢Angular吗？",
+  "Give our repo a star.": "给我们的回购打一颗星。",
+  "Star": "星级"
+}

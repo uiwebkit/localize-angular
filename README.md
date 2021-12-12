@@ -1,27 +1,61 @@
-# Angular
+# Uni Localization demo for Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
+Check out demo [here](https://uiwebkit.github.io/localize-angular/)
 
-## Development server
+Check out our docs [here](https://uiwebkit.com/wgt/loc/2)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Add to your main module
 
-## Code scaffolding
+```ts
+@NgModule({
+  ...,
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  ...
+})
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Add to index.html
 
-## Build
+```html
+<script type="module" src="https://cdn.jsdelivr.net/npm/@uiwebkit/flag@0.1.1/dist/flag/flag.esm.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@uiwebkit/udk@2.0.0-11/dist/udk.esm.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@uiwebkit/mat@2.0.0-2/dist/mat.esm.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@uiwebkit/loc@2.0.0-2/dist/loc/loc.esm.js"></script>
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### Place Uni Language Menu into the header of your web app. Specify the path to the language list JSON file (ex. lang-menu.json) or backend API endpoint
 
-## Running unit tests
+```html
+<uni-router shadow></uni-router>
+<uni-lang-menu-shadow mini round routing list="assets/json/lang-menu.json"></uni-lang-menu-shadow>
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Wrap your content with Uni Translate globally (for more convenience)
 
-## Running end-to-end tests
+```html
+<uni-translate>
+  <your-component></your-component>
+</uni-translate>
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#### or wrap your text content with Uni Translate locally (for better performance)
 
-## Further help
+```html
+<uni-translate>localized content</uni-translate>
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### localize partially
+
+```html
+<uni-translate>text and (( partially localized ))</uni-translate>
+```
+
+#### localize attributes
+
+```html
+<uni-translate>
+  <a href="https://your_domain/(( localized ))">link</a>
+</uni-translate>
+```
+
+#### open and modify ./src/assets/json/lang-menu.json and translation files into ./src/assets/json/i18n/ folder

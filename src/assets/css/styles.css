@@ -1,0 +1,5 @@
+.app-center uni-replace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

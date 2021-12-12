@@ -1,0 +1,18 @@
+{
+  "Welcome": "Bienvenido",
+  "app is running!": "¡la aplicación está en marcha!",
+  "Resources": "Recursos",
+  "Here are some links to help you get started:": "Aquí tienes algunos enlaces que te ayudarán a empezar:",
+  "Learn Angular": "Aprender Angular",
+  "CLI Documentation": "Documentación de la CLI",
+  "Next Steps": "Próximos pasos",
+  "What do you want to do next with your app?": "¿Qué quieres hacer ahora con tu aplicación?",
+  "New Component": "Nuevo componente",
+  "Add PWA Support": "Añadir soporte PWA",
+  "Add Dependency": "Añadir dependencia",
+  "Run and Watch Tests": "Ejecutar y observar pruebas",
+  "Build for Production": "Construir para la producción",
+  "Love Angular?": "¿Amas a Angular?",
+  "Give our repo a star.": "Dale una estrella a nuestro repo.",
+  "Star": "Estrella"
+}

@@ -1,0 +1,18 @@
+{
+  "Welcome": "Добро пожаловать",
+  "app is running!": "приложение запущено!",
+  "Resources": "Полезные ссылки",
+  "Here are some links to help you get started:": "Вот несколько ссылок, которые помогут вам начать:",
+  "Learn Angular": "Изучить Angular",
+  "CLI Documentation": "Документация по CLI",
+  "Next Steps": "Дальнейшие шаги",
+  "What do you want to do next with your app?": "Что вы хотите делать дальше со своим приложением?",
+  "New Component": "Новая компонента",
+  "Add PWA Support": "Добавить поддержку PWA",
+  "Add Dependency": "Добавить зависимость",
+  "Run and Watch Tests": "Запуск и просмотр тестов",
+  "Build for Production": "Билд для production",
+  "Love Angular?": "Нравится Angular?",
+  "Give our repo a star.": "Поставьте нашему репозиторию звездочку.",
+  "Star": "Звездочка"
+}

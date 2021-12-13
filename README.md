@@ -1,4 +1,4 @@
-# Uni Localization demo for Angular
+# Uni Localization example for Angular
 
 Check out demo [here](https://uiwebkit.github.io/localize-angular/)
 

@@ -4,7 +4,7 @@ Check out demo [here](https://uiwebkit.github.io/localize-angular/)
 
 Check out our docs [here](https://uiwebkit.com/wgt/loc/2)
 
-### Add to your main module
+### Add to your modules
 
 ```ts
 @NgModule({

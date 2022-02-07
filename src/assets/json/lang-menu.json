@@ -1,26 +1,26 @@
 [
   {
-    "lang": "en",
+    "route": "lang=en",
     "flag": "gb",
-    "name": "English",
-    "translation": "assets/json/i18n/en.json"
+    "textLabel": "English",
+    "translationUrl": "assets/json/i18n/en.json"
   },
   {
-    "lang": "cn",
-    "flag": "cn",
-    "name": "中文",
-    "translation": "assets/json/i18n/cn.json"
-  },
-  {
-    "lang": "es",
+    "route": "lang=es",
     "flag": "es",
-    "name": "Española",
-    "translation": "assets/json/i18n/es.json"
+    "textLabel": "Española",
+    "translationUrl": "assets/json/i18n/es.json"
   },
   {
-    "lang": "ru",
+    "route": "lang=cn",
+    "flag": "cn",
+    "textLabel": "中文",
+    "translationUrl": "assets/json/i18n/cn.json"
+  },
+  {
+    "route": "lang=ru",
     "flag": "ru",
-    "name": "Русский",
-    "translation": "assets/json/i18n/ru.json"
+    "textLabel": "Русский",
+    "translationUrl": "assets/json/i18n/ru.json"
   }
 ]
